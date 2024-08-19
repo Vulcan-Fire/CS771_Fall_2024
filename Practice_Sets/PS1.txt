@@ -1,1 +1,33 @@
-#TO_DO
+Problem 1
+
+Comments : α_n = 2/n for x_n having class -1 and -2/n for x_n having class 1 
+           b is ||µ_-||^2 - ||µ_+||^2
+
+Problem 2 
+
+Comments : stuck
+
+Problem 3
+
+Comments : Since the training set is infinite we would already be having the test case in our training data, and it's distance from the nearest neighbour would be zero and it would be assigned it's 
+           lable which we know is already correct, therefore the misclassification error in this setting is zero.
+
+Problem 4
+
+Comments : 1) Misclassification Rates : A-> 0.25 B-> 0.25
+           2) Information Gains : A-> 0.19 B-> 0.31
+           The results are consistent as misclassification rate is calculated for the model as a whole, therefore it does not takes into account the purity of classification at the internal nodes.
+
+Problem 5
+
+Comments : Check the maximum and minimum value the feacture can take. Based on these two values create put r+1 equally spaced thresholds on the number line between min and max.
+           You can now segregate the real value based upon these r discrete buckets. Rest steps follow as in case discrete values. 
+
+Problem 6
+
+Comments : Information gain calculation is required to select which feautre provides the purest sets at the lower level at a given node.
+          Full binary tree has 2 raised to the power depth-1 nodes at a given level.
+
+Answer : D*(1) + (D-1)*(2^1) + (D-2)*(2^2) + ....... + 1 * (2^(D-1)) 
+
+        
